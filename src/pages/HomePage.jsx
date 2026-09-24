@@ -14,7 +14,7 @@ export default function HomePage() {
                 </h1>
                 <h1 className="text-6xl text-center text-sky-500 mb-5 bg-gray-950/50 rounded">Philip Brunet</h1>
                 <h2 className="text-center text-2xl m-5 bg-gray-950/50 rounded">
-                    React/Python/AWS full stack developer
+                    Full stack developer
                 </h2>
                 <img src={profilePic} alt="Profile Photo" className="rounded-lg w-80 max-w-2/3 mt-5" />
                 <div className="flex gap-5 mb-5">
@@ -28,12 +28,11 @@ export default function HomePage() {
                         <img src={gmailLogo} alt="Gmail" className="bg-white m-2 p-1 rounded w-12"/>
                     </Link>
                 </div>
-                <p className="mx-2 bg-gray-950/50 rounded">Software developer specializing in web applications using React and Python.</p>
-                <p className="mx-2 bg-gray-950/50 rounded">As an AWS Certified Developer, I'll help you create and deploy the website or application you need to get your next big idea off the ground.</p>
-                <p className="mx-2 bg-gray-950/50 rounded">Currently studying the latest AI-powered technologies and beginning to use them in new projects.</p>
-                <button onClick={() => navigate("/projects")} className="bg-blue-800 hover:bg-blue-500 text-white rounded text-2xl p-4 m-5">Check out my projects!</button>
+                <p className="mx-2 bg-gray-950/50 rounded">Software developer specializing in web applications.</p>
+                <p className="mx-2 bg-gray-950/50 rounded">Need help with a website or a web app? Want to create a portfolio or product page for your business or personal project?</p>
+                <p className="mx-2 bg-gray-950/50 rounded">Feel free to reach out by email!</p>
+                <button onClick={() => navigate("/projects")} className="bg-blue-800 hover:bg-blue-500 text-white rounded text-2xl p-4 m-5 cursor-pointer">Check out my projects!</button>
             </div>
-            
         </div>
     );
 }
