@@ -1,5 +1,5 @@
 # Portfolio
-A web app built in React to showcase my projects.
+A web app built in React to showcase my projects. Still under construction! 🛠️
 
 ## Run app locally
 - Make sure [pnpm](https://pnpm.io/) is installed
